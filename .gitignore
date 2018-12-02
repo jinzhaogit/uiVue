@@ -1,0 +1,5 @@
+# 定义需要忽略提交到git中去的文件
+node_modules
+.idea
+.vscode
+.git
