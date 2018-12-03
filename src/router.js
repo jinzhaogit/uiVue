@@ -7,6 +7,7 @@ import ShopCarContainer from './components/ShopCarContainer.vue'
 
 var router=new VueRouter({
     routes:[ //路由匹配规则     
+        {path:'/',redirect:'/home'},
         {path:'/home',component:HomeContainer},
         {path:'/member',component:MemberContainer},
         {path:'/search',component:SearchContainer},
